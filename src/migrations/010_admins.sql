@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS admins (
+  id SERIAL PRIMARY KEY,
+  username TEXT NOT NULL UNIQUE,
+  password_hash TEXT NOT NULL,
+  password_changed_at TIMESTAMPTZ NOT NULL DEFAULT NOW(),
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);

@@ -1,0 +1,9 @@
+PORT=3000
+NODE_ENV=development
+DATABASE_URL=postgresql://neondb_owner:npg_qG2Sjsbhe4dJ@ep-old-water-a1vumn3x-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=full-verify&channel_binding=require
+
+# Auth
+
+JWT_SECRET=change-this-to-a-long-random-string
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=admin123
